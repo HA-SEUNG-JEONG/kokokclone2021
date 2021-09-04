@@ -1,0 +1,10 @@
+#friends-display-link {
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+  padding: 10px 0px;
+}
+
+#friends-display-link i {
+  color: #2e363e;
+}

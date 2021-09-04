@@ -1,0 +1,40 @@
+.nav {
+  position: fixed;
+  bottom: 0; /*하단에 고정*/
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(121, 121, 121, 0.2);
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__link {
+  color: #2e363e;
+  position: relative;
+}
+.nav__notifi {
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: block; /*span 태그는 inline이기 때문에 block으로 변경하여 높이,너비 가질 수 있도록 함*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
+.nav__point {
+  color: tomato;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  left: 30px;
+  bottom: 27px;
+}

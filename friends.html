@@ -39,19 +39,53 @@
     </header>
 
     <a id="friends-display-link">
-        <i class="fas fa-info-circle"></i> Friends' Name Display  <i class="fas fa-chevron-right fa-sm"> </i>
+        <i class="fas fa-info-circle"></i> Friends' Name Display  <i class="fas fa-chevron-right fa-xs"> </i>
     </a>
 
-<div class="user-component">
-    <div class="user-component__column">
-        <img src="https://avatars.githubusercontent.com/u/38553239?v=4" class="user-component__avatar"/>
-        <div class="user-component__text">
-            <h4 class="user-component__title">Nicolas</h4>
-            <!--<h6 class="user-component__subtitle">this text whatever</h6>-->
+    <!-- 프로필이 한꺼번에 움직이도록 설정 -->
+    <main class="friends-screen">
+        <div class="user-part">
+            <!--메인 프로필-->
+            <div class="user-part__column">
+                <!--프로필 사진-->
+                <img src="https://avatars.githubusercontent.com/u/88266129?s=60&v=4" class="user-part__avatar user-part__avatar--xl"/>
+    
+                <!-- 프로필명 -->
+                <div class="user-part__text">
+                    <h3 class="user-part__title">Jeong Ha Seung</h3>
+                    <!-- <h6 class="user-part__message">This is whatever</h6> -->
+                </div>
+            </div>
+    
+            <div class="user-part__column"></div>
         </div>
-    </div>
-    <div class="user-component__column"></div>
-</div>
+        <div class="friends-screen__channel">
+            <div class="friends-screen__channel__header">
+                <span>Channel</span>
+                <i class="fas fa-chevron-up fa-xs"> </i>
+            </div>
+            <div class="user-part">
+                <!--메인 프로필-->
+                <div class="user-part__column">
+                    <!--프로필 사진-->
+                    <img src="https://avatars.githubusercontent.com/u/88266129?s=60&v=4" class="user-part__avatar user-part__avatar--sm"/>
+        
+                    <!-- 프로필명 -->
+                    <div class="user-part__text">
+                        <h4 class="user-part__title user-part__title--not--bold">Channel</h4>
+                    </div>
+                </div>
+        
+                <div class="user-part__column">
+                    <span>2</span>
+                    <i class="fas fa-chevron-right fa-xs"> </i>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
 
     <nav class="nav">
         <ul class="nav__list">

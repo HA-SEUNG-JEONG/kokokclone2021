@@ -8,3 +8,15 @@
 #friends-display-link i {
   color: #2e363e;
 }
+
+#splash-screen {
+  background-color: yellow;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 132px;
+}

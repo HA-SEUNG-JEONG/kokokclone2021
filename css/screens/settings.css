@@ -1,3 +1,6 @@
+html {
+  background-color: rgb(236, 175, 236);
+}
 .settings__setting {
   padding: 20px 0;
   border-bottom: 1px solid rgb(236, 229, 229);
@@ -12,6 +15,15 @@
   font-size: 22px;
 }
 
+.settings__setting-column button {
+  background-color: yellowgreen;
+  border-radius: 10px;
+  padding: 0 10px;
+  font-weight: 1000;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: blue;
+}
 .settings__setting-column:last-child {
   opacity: 0.5;
 }

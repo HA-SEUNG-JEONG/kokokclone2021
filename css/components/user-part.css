@@ -25,6 +25,10 @@
   opacity: 0.4;
 }
 
+.user-part__message i {
+  margin-left: 10px;
+  color: #ce280b;
+}
 .user-part__avatar--xl {
   width: 70px;
   height: 70px;
@@ -52,8 +56,9 @@
   color: rgba(228, 18, 18, 0.959);
 }
 
-.user-part__text h4 {
-  font-weight: 600;
+.user-part__text h6 {
+  margin-top: 10px;
+  font-weight: 800;
 }
 
 .user-part__text button {

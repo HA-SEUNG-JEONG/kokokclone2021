@@ -1,0 +1,40 @@
+@keyframes splash {
+  0% {
+    opacity: 1;
+  }
+  1% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: none;
+  }
+}
+.chat-notice__column {
+  width: 450px;
+  height: 50px;
+  background-color: rgb(241, 227, 227);
+  border: transparent;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 5px rgb(216, 212, 212);
+  position: absolute;
+  left: 20px;
+  top: 8px;
+  animation: splash 0.8s ease-in-out;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.chat-notice__text {
+  padding: 3px;
+  margin: 0 20px;
+}
+
+.chat-notice__text:first-child {
+  font-weight: 600;
+}
+
+.chat-notice__text:last-child {
+  font-weight: 600;
+  opacity: 0.6;
+}

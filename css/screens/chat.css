@@ -49,11 +49,26 @@
   border-radius: 25px;
   margin-bottom: 25px;
 }
+@keyframes Left {
+  0% {
+    opacity: 0;
+    transform: none;
+  }
+  1% {
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
 
 .message-row {
   width: 100%;
   display: flex;
   margin-bottom: 25px;
+  animation: Left 1.5s ease-in-out;
 }
 
 .message-row img {
@@ -91,8 +106,23 @@
   font-size: 15px;
 }
 
+@keyframes Right {
+  0% {
+    opacity: 0;
+    transform: none;
+  }
+  1% {
+    opacity: 0;
+    transform: translateX(60px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
 .message-row--own {
   justify-content: flex-end;
+  animation: Right 1.5s ease-in-out;
 }
 
 .message-row--own .message__bubble {

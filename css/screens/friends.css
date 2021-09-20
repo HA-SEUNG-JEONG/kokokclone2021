@@ -1,12 +1,18 @@
 #friends-display-link {
   display: flex;
   justify-content: center;
-  background-color: #fafafa;
-  padding: 10px 0px;
+  align-items: center;
+  background-color: #76493e;
+  padding: 10px 0;
+  font-weight: 600;
 }
-
+.fa-info-circle {
+  margin-right: 10px;
+}
 #friends-display-link i {
   color: #2e363e;
+  margin-left: 10px;
+  padding: 4px;
 }
 
 @keyframes hidescreen {
@@ -28,6 +34,55 @@
   justify-content: center;
   align-items: center;
   font-size: 132px;
-  animation: hidescreen 1.2s ease-in-out forwards;
-  animation-delay: 2s;
+  animation: hidescreen 0.5s ease-in-out forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes authentication {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: rotateY(90deg);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes boom {
+  0% {
+    transform: none;
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.faceid {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 100px;
+  left: 200px;
+  width: 100px;
+  height: 100px;
+  background-color: #2f373e;
+  border: 3px solid white;
+  border-radius: 20px;
+  animation: boom 1.5s ease-in-out;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+.faceid__column {
+  padding: 20px;
+  color: white;
+  font-size: 18px;
+  white-space: nowrap;
+  animation: authentication 1s ease-in-out;
+  animation-delay: 1s;
 }

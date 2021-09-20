@@ -17,3 +17,11 @@
 .icon-row__icon span {
   margin-top: 20px;
 }
+
+.icons-row {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  left: 10px;
+  top: 30px;
+}

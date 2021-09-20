@@ -10,8 +10,8 @@
 }
 
 .alt-header__title {
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .alt-header__column:first-child {
@@ -28,5 +28,5 @@
 }
 
 .alt-header__column span:last-child {
-  margin-left: 24px;
+  margin-left: 20px;
 }

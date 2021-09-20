@@ -34,10 +34,14 @@
   border-radius: 20px;
 }
 
-user-part__title--not--bold {
+.user-part__title--not--bold {
   font-weight: 400;
 }
 
 .user-part__column:last-child {
   color: rgba(0, 0, 0, 0.5);
+}
+
+.user-part__text i {
+  color: rgba(228, 18, 18, 0.959);
 }

@@ -9,6 +9,15 @@
   color: #2e363e;
 }
 
+@keyframes hidescreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
 #splash-screen {
   background-color: yellow;
   position: absolute;
@@ -19,4 +28,6 @@
   justify-content: center;
   align-items: center;
   font-size: 132px;
+  animation: hidescreen 1.2s ease-in-out forwards;
+  animation-delay: 2s;
 }
